@@ -28,7 +28,7 @@ class Mindrill
 		
 		if ($test === true && !$this->test())
 		{
-			throw new Exception('Cannot connect or authentice with the Mandrill API');
+			throw new Exception('Cannot connect or authenticate with the Mandrill API');
 		}
 	}
 	
